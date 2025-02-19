@@ -221,6 +221,6 @@
     "singleQuote": true
   },
   "engines": {
-    "node": ">=18.17.1"
+    "node": "18.17.1"
   }
 }
