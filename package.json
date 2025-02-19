@@ -28,7 +28,7 @@
     "start": "prisma migrate & prisma db seed & next start -p 1111",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
-    "postinstall": "apt-get update && apt-get install -y python3 make g++ && pnpm generate",
+    "postinstall": "pnpm generate",
     "docker:reset:password": "node prisma/resetpassword.js"
   },
   "dependencies": {
