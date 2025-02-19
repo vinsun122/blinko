@@ -25,7 +25,7 @@
     "build": "set NODE_ENV=production & next build",
     "build:debug": "set DEBUG=* & next build",
     "build:max": "set NODE_OPTIONS=--max-old-space-size=16384 & set DEBUG=* & next build",
-    "start": "prisma migrate & prisma db seed & next start -p 1111",
+    "start": "prisma migrate & prisma db seed & next start",
     "lint": "next lint",
     "analyze": "ANALYZE=true next build",
     "postinstall": "pnpm generate",
